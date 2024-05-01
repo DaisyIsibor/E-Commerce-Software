@@ -2,7 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 const Product = require('./Product'); // Import Product model
-const Tag = require('./Tags'); // Import Tag model
+const Tags = require('./Tags'); // Import Tag model
 
 class ProductTag extends Model {}
 
@@ -25,7 +25,7 @@ ProductTag.init(
 tag_id: {
   type: DataTypes.INTEGER,
   references: {
-      model: Tag, 
+      model: Tags, 
       key: 'id', 
   },
 },
