@@ -44,10 +44,6 @@ Product.init(
         key: 'id', 
     },
 },
-
-tag_name:{
-  type:DataTypes.STRING,
-},
 },
   {
     sequelize,
