@@ -4,13 +4,14 @@
 
 
 ## Table of Contents
-- [Description](#Description)
-- [Installation](#Installation)
-- [User story](#Userstory)
-- [Acceptance criterial](#Acceptancecriteria)
-- [Usage](#Usage)
-- [Tests](#Tests)
+- [Description](#description)
+- [Installation](#installation)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Usage](#usage)
+- [Tests](#tests)
 - [License](#license)
+
 
 ## Description
 Introducing our advanced e-commerce backend solution tailored for electronics businesses. Powered by Express.js and Sequelize, our platform enables efficient online transactions and streamlined inventory management.
