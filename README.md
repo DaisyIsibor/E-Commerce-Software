@@ -6,14 +6,19 @@
 ## Table of Contents
 - [Description](#description)
 - [Installation](#Installation)
-- [Userstory](#User story)
-- [Acceptancecriterial](#Acceptance criteria)
+- [User story](#Userstory)
+- [Acceptance criterial](#Acceptancecriteria)
 - [Usage](#Usage)
 - [Tests](#Tests)
 - [License](#license)
 
 ## Description
 
+Introducing our advanced e-commerce backend solution tailored for electronics businesses. Powered by Express.js and Sequelize, our platform enables efficient online transactions and streamlined inventory management.
+
+Developers can create robust APIs that seamlessly interact with MySQL databases, ensuring optimal performance and scalability for product catalogs, orders, and customer interactions.
+
+Our solution prioritizes developer productivity with comprehensive documentation and streamlined integration processes. Maximize your e-commerce venture's potential with our reliable and scalable backend solution.
 
 ## Installation
 This Challenge will require a video submission. Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
@@ -26,8 +31,6 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 ## Usage
 
 
-
-## License
 
 ## Your Task
 
