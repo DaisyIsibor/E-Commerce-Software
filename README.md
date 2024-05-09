@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [Description](#description)
+- [Description](#Description)
 - [Installation](#Installation)
 - [User story](#Userstory)
 - [Acceptance criterial](#Acceptancecriteria)
@@ -13,7 +13,6 @@
 - [License](#license)
 
 ## Description
-
 Introducing our advanced e-commerce backend solution tailored for electronics businesses. Powered by Express.js and Sequelize, our platform enables efficient online transactions and streamlined inventory management.
 
 Developers can create robust APIs that seamlessly interact with MySQL databases, ensuring optimal performance and scalability for product catalogs, orders, and customer interactions.
