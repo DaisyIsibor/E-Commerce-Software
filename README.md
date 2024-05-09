@@ -23,15 +23,69 @@ Developers can create robust APIs that seamlessly interact with MySQL databases,
 Our solution prioritizes developer productivity with comprehensive documentation and streamlined integration processes. Maximize your e-commerce venture's potential with our reliable and scalable backend solution.
 
 ## Installation
-This Challenge will require a video submission. Refer to the [Fullstack Blog Video Submission Guide](https://coding-boot-camp.github.io/full-stack/computer-literacy/video-submission-guide) for additional guidance on creating a video.
-
 You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
-After creating the models and routes, run `npm run seed` to seed data to your database so that you can test your routes.
+. Clone the repository to your local machine:
 
+ git clone https://github.com/your/repository.git
+
+. Navigate to the project directory:
+ cd repository-name
+
+. Install the required dependencies:
+ npm install
+
+. Set up environment variables:
+  Create a .env file in the project root and add the following configuration
+
+ DB_USERNAME=your_database_username
+ DB_PASSWORD=your_database_password
+ DB_DATABASE=your_database_name
+ DB_HOST=your_database_host (e.g., localhost)
+ DB_PORT=your_database_port (e.g., 3306)
+
+. Install required packages:
+
+  npm install mysql2 sequelize dotenv
+
+. Seed data into your database to set up initial records:
+  npm run seed
+
+. Start the server: 
+
+  Launch the Express.js server to run your backend application:
+  npm start
 
 ## Usage
 
+To effectively use the ecommerce software backend, follow these steps:
+
+. Testing API Endpoints:
+Use tools like Postman or Insomnia commands to interact with the API endpoints for testing and validation.
+
+. Authentication and Authorization:
+Implement user authentication (e.g., JWT) and authorization to secure API routes and control access.
+
+. Database Operations:
+Utilize Sequelize ORM for database operations. Define models and perform CRUD (Create, Read, Update, Delete) operations on your MySQL database.
+
+. Customize Route Handlers:
+
+  Customize Express.js route handlers to process different HTTP requests:
+
+  Use GET requests to fetch data from the database.
+  Implement POST requests to create new records.
+  Handle PUT requests to update existing resources.
+  Use DELETE requests to remove data from the database.
+
+. Error Handling:
+Implement middleware for error handling to provide appropriate responses for different error scenarios.
+
+. Deployment Preparation:
+Configure environment variables in a .env file for database connection settings and other configurations required for deployment.
+
+. Testing and Maintenance:
+Continuously test the backend application, perform security audits, and maintain code quality for optimal performance and reliability.
 
 
 ## Task
@@ -68,20 +122,34 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Tests
 
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+Retrieve Categories, Products, and Tags
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+Use Postman to test GET routes for retrieving categories, products, and tags from the backend API.
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+Retrieve Single Entity
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+Test GET routes to fetch a single category, product, or tag by ID using Postman.
 
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+CRUD Operations
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
+Demonstrate POST, PUT, and DELETE routes for modifying categories, products, and tags using Postman.
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia.
+Usage Instruction:
 
+Start Backend Server
+.Ensure the backend server for your ecommerce software is running.
+Open Postman
+
+.Launch Postman or a similar API testing tool.
+
+.Import Collection
+Import the provided Postman collection containing sample API requests.
+
+.Execute API Tests
+Run the included requests in Postman to test various API endpoints (GET, POST, PUT, DELETE) for categories, products, and tags.
+
+.Verify Responses
+Validate that responses from the backend API match the expected behaviors based on the test scenarios.
 
 ## Questions
 
