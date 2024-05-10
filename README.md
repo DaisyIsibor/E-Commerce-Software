@@ -125,14 +125,36 @@ THEN I am able to successfully create, update, and delete data in my database
 Retrieve Categories, Products, and Tags
 
 Use Postman to test GET routes for retrieving categories, products, and tags from the backend API.
+GET:  http://localhost:3001/api/categories
+      http://localhost:3001/api/tags
+      http://localhost:3001/api/products
+
+
 
 Retrieve Single Entity
 
 Test GET routes to fetch a single category, product, or tag by ID using Postman.
+GET:  http://localhost:3001/api/categories/1
+      http://localhost:3001/api/tags/1
+      http://localhost:3001/api/products/1
 
 CRUD Operations
 
 Demonstrate POST, PUT, and DELETE routes for modifying categories, products, and tags using Postman.
+
+POST http://localhost:3001/api/categories
+    http://localhost:3001/api/products
+
+    http://localhost:3001/api/tags
+
+PUT   http://localhost:3001/api/categories/6
+      http://localhost:3001/api/tags/9
+      http://localhost:3001/api/products/4
+
+
+DELETE  http://localhost:3001/api/categories/6
+        http://localhost:3001/api/tags/9
+        http://localhost:3001/api/products/4
 
 Usage Instruction:
 
@@ -150,6 +172,25 @@ Run the included requests in Postman to test various API endpoints (GET, POST, P
 
 .Verify Responses
 Validate that responses from the backend API match the expected behaviors based on the test scenarios.
+
+IMAGES
+
+![alt text](Images/DEL-categories-6.png)
+![alt text](Images/DEL-products-6.png)
+![alt text](Images/DEL-Tags-9.png)
+![alt text](Images/GET-categories-1.png)
+![alt text](Images/Get-categories.png)
+![alt text](Images/GET-product-1.png)
+![alt text](Images/GET-products.png)
+![alt text](Images/GET-Tags-1.png)
+![alt text](Images/GET-Tags.png)
+![alt text](Images/POST-categories.png)
+![alt text](Images/POST-products.png)
+![alt text](Images/POST-Tags.png)
+![alt text](Images/PUT-categories-6.png)
+![alt text](Images/PUT-products-4.png)
+![alt text](Images/PUT-Tags-9.png)
+
 
 ## Questions
 
